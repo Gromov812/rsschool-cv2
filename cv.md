@@ -23,3 +23,17 @@ My goals are to become excellent frontend developer with perfect knowlage of mod
     + Vanilla JS
         - Methods like .map .reduce .concat etc;
         - Functions and visibalty areas of this;
+
+## My experience ##
+  
+For now, i'm learning native JS with some Youtube channels and do some tasks on [codewars](https://www.codewars.com/users/rsschool_Gromov812/completed_solutions). 
+As examples of my traine works, i can show you [simple tic tac toe](https://gromov812.github.io/tik-tak-toe/) or [ultimate tic tac toe](https://gromov812.github.io/ultimate-tic-tac-toe/).
+
+## Graduation ##
+  
+I'm graduated Saint-Petesburg ITMO University bachelor course, Economic theory faculty.
+
+## Languages ##
+  
+* Russian
+* English (A2 Elementary)
