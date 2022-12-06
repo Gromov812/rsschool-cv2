@@ -18,9 +18,8 @@ My goals are to become excellent frontend developer with perfect knowlage of mod
 ## My Skills ##
   
 * HTML
-* CSS (Knowing of Bootstrap)
+* CSS (Knowing about Bootstrap)
 * JS
     + Vanilla JS
         - Methods like .map .reduce .concat etc;
         - Functions and visibalty areas of this;
-        - Classes (not perfect);
