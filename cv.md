@@ -14,7 +14,7 @@
   
 Currently, i'm studing at RS School on Stage 0 Frontend JS Developer. 
 My goals are to become excellent frontend developer with perfect knowlage of modern js freamworks and libraries.
-
+ 
 ## My Skills ##
   
 * HTML
