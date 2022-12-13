@@ -12,8 +12,8 @@ body {
 header {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  background: #881c1c;
+  background: linear-gradient(45deg, rgb(226 136 0), rgb(202 80 80));
+  border-bottom: 3px #ddd solid;
 }
 .header--menu {
   height: 50px;
@@ -45,32 +45,28 @@ ul {
     font-weight: bold;
   }
 }
-
-.logotype--link {
-  color: white;
-  text-decoration: none;
+h1 {
+  color: #1e1e1e;
 }
-.logotype::first-letter {
-  color: rgb(255, 0, 0);
-  font-size: 20px;
+.logotype--link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
   font-weight: 600;
 }
-.logotype::first-letter:hover {
-  color: rgb(255, 255, 255);
+.logotype:hover:first-letter {
+  color: #c7ff00;
 }
 .container {
   display: flex;
-  max-height: 500px;
-  margin: 50px 150px 0 150px;
-  align-items: center;
+  margin: 50px 150px 50px 150px;
   justify-content: space-between;
   font-size: 18px;
   font-weight: 400;
 }
-.container h2 {
-  border-left: 15px #b9b9b9 solid;
-  padding: 0 10px;
-  margin: 10px;
+.avatar--block {
+  display: inherit;
+  align-items: center;
 }
 .avatar--block img {
   border-radius: 100%;
@@ -80,6 +76,19 @@ ul {
   max-width: 60%;
   margin: 0 auto;
   padding: 15px;
+  background-color: #ddd;
+  border: 1px #a5a5a5 solid;
+  border-radius: 15px;
+}
+.block h2 {
+  border-left: 15px #c74b4b solid;
+  font-weight: 400;
+  color: #1e1e1e;
+  padding: 0 10px;
+  margin: 10px;
+}
+.block h2::first-letter {
+  font-weight: 800;
 }
 .about--text {
   padding: 15px;
@@ -88,4 +97,123 @@ ul {
 .about--text::first-letter {
   font-size: 21px;
   font-weight: 700;
+}
+.text--bold{
+  font-weight: 600;
+}
+.inblock--list{
+  font-family: monospace;
+  padding: 20px 0;
+}
+.inblock--list li {
+  display: flex;
+  align-items: center;
+  margin: 0 0 15px 0;
+}
+.contacts {
+ list-style: none;
+}
+.contacts:nth-child(2)::before {
+  content: "";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background-image: url(/assets/img/mail.png);
+  background-repeat: no-repeat;
+}
+.contacts:nth-child(3)::before {
+  content: "";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background-image: url(/assets/img/tg.png);
+  background-repeat: no-repeat;
+}
+.contacts:nth-child(1)::before {
+  content: "";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background-image: url(/assets/img/location.png);
+  background-repeat: no-repeat;
+  }
+.contacts:nth-child(4)::before {
+  content: "";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background-image: url(/assets/img/github.png);
+  background-repeat: no-repeat;
+  }
+.contacts:nth-child(5)::before {
+  content: "";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background-image: url(/assets/img/codewars.png);
+  background-repeat: no-repeat;
+  }
+.inblock--task {
+  padding: 20px 0;
+  max-width: 560px;
+  line-height: 30px;
+}
+.inblock--code {
+  font-size: 14px;
+}
+.block pre {
+  border-left: 5px #c74b4b solid;
+  padding: 0 10px;
+  margin: 10px 0;
+  background: #fff;
+}
+.center--item {
+  display: flex;
+  justify-content: center;
+}
+.block--projects {
+  max-width: 33%;
+  text-align: center;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#zoom {
+  /* (A) OPTIONAL DIMENSIONS */
+  width: 300px;
+  height: auto;
+
+  /* (B) ANIMATE ZOOM */
+  /* ease | ease-in | ease-out | linear */
+  transition: transform ease-in-out 0.3s;
+}
+
+/* (C) ZOOM ON HOVER */
+#zoom:hover { transform: scale(1.5); }
+
+main {
+ background-image: url(/assets/img/pattern.png);
+}
+.block--projects h3 {
+  font-weight: 600;
+  margin: 10px 0 20px 0;
+  padding:  0 0 10px 0;
+  border-bottom: 5px #c5c5c5 solid;
+}
+.block--projects img {
+  margin: 0 0 15px 0;
+}
+.block--porjects--links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+.block--footer {
+  position: fixed;
+  top: 10px;
 }

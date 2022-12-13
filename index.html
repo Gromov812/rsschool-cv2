@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
     <title>Document</title>
@@ -34,11 +33,79 @@
         I'm glad to see you on my CV card. My name is Nikita and i'm 30 yo. I like to learn for something new and realize it on practice.
         Since December 2022 i've been studing on Rolling Scopes School course Frontend HTML/JS Develompment. Also i'm watching educational videos on Youtube channels and reading
         articles about Javascript. I'm really like this programming language because it could be effective at backend Node.js and frontend React.js, Angular, Vue.js. <br/>
-        So, as i'll get my graduate i'll add something new in my CV card.
-        My presonal goal is to become a frontend developer on React.js/Redux and get my first job on 2023. I would like to learn Node.js and in 2024 become Fullstack-developer.
+        So, as i'll get my graduate i'll edit something new in my CV card.
+        My presonal goal is to become a frontend developer on React.js/Redux and get my first job on 2023. In 2024 i would like to become Fullstack-developer with Node.js.
       </p>
     </secrion>
   </div>
+
+  <div class="container">
+    <section class="block">
+  <h2>Contacts</h2>
+  <ul class="inblock--list">
+    <li class="inblock--item contacts">&nbspLocation: <span class="text--bold">&nbsp St. Petersburg</span></li>
+    <li class="inblock--item contacts">&nbspE-Mail: <span class="text--bold">&nbsp gromov.nk@ya.ru</span></li>
+    <li class="inblock--item contacts">&nbspTG: <span class="text--bold">&nbsp @undefined_ac</span></li>
+    <li class="inblock--item contacts">&nbspGithub: <span class="text--bold">&nbsp @gromov812</span></li>
+    <li class="inblock--item contacts">&nbspCodewars: <span class="text--bold">&nbsp rsschool_Gromov812</span></li>
+  </ul>
+    </section>
+    <section class="block">
+        <h2>Skills</h2>
+        <ul class="inblock--list">
+          <li class="inblock--item">Web. Dev.: <span class="text--bold">&nbsp HTML5, CSS3, Javascript, SQL</span></li>
+          <li class="inblock--item">Graphics: <span class="text--bold">&nbsp Adobe Photoshop, Figma</span></li>
+          <li class="inblock--item">Version Control: <span class="text--bold">&nbsp GIT, Github</span></li>
+          <li class="inblock--item">Languages: <span class="text--bold">&nbsp RU, EN (A2)</span></li>
+        </ul>
+    </section>
+    <section class="block">
+      <h2>Code Example</h2>
+      <p class="inblock--task">
+        <b>Task</b> <br/>
+Given an array of integers, remove the smallest value. Do not mutate the original array/list. If there are multiple elements with the same value, remove the one with a lower index. If you get an empty array/list, return an empty array/list.
+<br/>
+Don't change the order of the elements that are left.
+      </p>
+      <pre><code class="inblock--code">
+function removeSmallest(nums) {
+  return nums.filter((el,i) => i != nums.indexOf(Math.min(...nums)));
+}
+      </code></pre>
+    </section>
+  </div>
+
+  <div class="block center--item">
+    <h2>Projects examples</h2>
+  </div>
+  <div class="container">
+  <section class="block block--projects">
+    <h3>Tic-Tac-Toe</h3>
+    <img src="/assets/img/tictactoe.jpg" alt="tic-tac-toe game" height="200" id="zoom">
+    <p>
+      Simple game with simple logic to collect three items one-by-one in vertical, horizontal or diagonal line. I'm used blocks with lists for create sqares with values from 1 to 9.
+      <br/>The main idea of game-logic is to push values in array on click and after array.length > 2 match result array with arrays that contains win combinations and check for a winner.
+    </p>
+    <span class="block--porjects--links"><a href="http://">>> Try it now! <<</a><a href="http://">>> See source on Github <<</a></span>
+  </section>
+  <section class="block block--projects">
+    <h3>Ultimate Tic-Tac-Toe</h3>
+    <img src="/assets/img/ultimate-tictactoe.jpg" alt="ultimate tic-tac-toe game" height="200" id="zoom">
+    <p>
+      Harder gameplay and logic then tic-tac-toe but same rule. For that you should win in little fields to create your winline. each small cell has the same location on its field that your opponent will have in the next move on the big field.
+    </p>
+    <span class="block--porjects--links"><a href="http://">>> Try it now! <<</a><a href="http://">>> See source on Github <<</a></span>
+
+  </section>
+  <section class="block block--projects">
+    <h3>Get random user</h3>
+    <img src="/assets/img/fetchuser.jpg" alt="ultimate tic-tac-toe game" height="200" id="zoom">
+    <p>
+      In this case we get a random data from reqres.in with fetch requests and display it.
+    </p>
+    <span class="block--porjects--links"><a href="http://">>> Try it now! <<</a><a href="http://">>> See source on Github <<</a></span>
+  </section>
+</div>
 </main>
 </body>
 </html>
