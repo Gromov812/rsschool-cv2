@@ -73,19 +73,34 @@ h1 {
   height: 350px;
 }
 .block {
-  max-width: 60%;
+  max-width: 33%;
   margin: 0 auto;
   padding: 15px;
   background-color: #ddd;
   border: 1px #a5a5a5 solid;
   border-radius: 15px;
 }
+.block--width--60 {
+  max-width: 60%;
+}
 .block h2 {
+  display: flex;
+  align-items: center;
+  font-family: monospace;
   border-left: 15px #c74b4b solid;
   font-weight: 400;
-  color: #1e1e1e;
-  padding: 0 10px;
+  color: #323232;
+  padding: 0 5px;
   margin: 10px;
+}
+.block h2::before {
+  content: "";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  margin: 0 10px 0 0;
+  background-image: url(/assets/img/pointer.png);
+  background-repeat: no-repeat;
 }
 .block h2::first-letter {
   font-weight: 800;
@@ -95,8 +110,8 @@ h1 {
   line-height: 30px;
 }
 .about--text::first-letter {
-  font-size: 21px;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: 800;
 }
 .text--bold{
   font-weight: 600;
@@ -198,6 +213,7 @@ main {
  background-image: url(/assets/img/pattern.png);
 }
 .block--projects h3 {
+  font-family: monospace;
   font-weight: 600;
   margin: 10px 0 20px 0;
   padding:  0 0 10px 0;
@@ -216,4 +232,7 @@ main {
 .block--footer {
   position: fixed;
   top: 10px;
+}
+.block--projects p {
+  text-align: left;
 }
