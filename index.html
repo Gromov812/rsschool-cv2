@@ -5,68 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/348266a6c1.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
     <title>Document</title>
 </head>
 <body>
 <header>
+  <!-- Logo -->
   <div class="logotype"><a class="logotype--link" href="">Gromov</a></div>
-  <nav>
+  <!-- Hamburger -->
+      <!-- Menu -->
+  <nav class="nav">
     <ul class="header--menu">
-      <li class="header--menu--list"><a href="" class="header--menu--link">Summary</a></li>
-      <li class="header--menu--list"><a href="" class="header--menu--link">My Skills</a></li>
-      <li class="header--menu--list"><a href="" class="header--menu--link">My experience</a></li>
-      <li class="header--menu--list"><a href="" class="header--menu--link">Code example</a></li>
-      <li class="header--menu--list"><a href="" class="header--menu--link">Contacts</a></li>
+      <li class="header--menu--list"><a href="#about" class="header--menu--link">About me</a></li>
+      <li class="header--menu--list"><a href="#contacts" class="header--menu--link">Contacts</a></li>
+      <li class="header--menu--list"><a href="#skills" class="header--menu--link">My skills</a></li>
+      <li class="header--menu--list"><a href="#codex" class="header--menu--link">Code example</a></li>
+      <li class="header--menu--list"><a href="#projects" class="header--menu--link">Projects</a></li>
     </ul>
   </nav>
+  <i id="mobile--menu" class="fa fa-bars fa-2x" aria-hidden="true"></i>
+
+
 </header>
-<main>
-  <div class="container">
-    <div class="avatar--block">
-      <img src="https://avatars.githubusercontent.com/u/105276303?v=4" alt="avatar">
-    </div>
-    <secrion class="block block--width--60 ">
+<main class="main">
+  <section class="container">
+
+    <div class="about--block">
       <h1>Nikita Gromov's CV</h1>
-      <h2>About me & my graduation</h2>
+      <h2 id="about">About me</h2>
       <p class="about--text">
+        <img src="https://avatars.githubusercontent.com/u/105276303?v=4" alt="avatar">
         I'm glad to see you on my CV card. My name is Nikita and i'm 30 yo. I like to learn for something new and realize it on practice.
         Since December 2022 i've been studing on Rolling Scopes School course Frontend HTML/JS Develompment. Also i'm watching educational videos on Youtube channels and reading
-        articles about Javascript. I'm really like this programming language because it could be effective at backend Node.js and frontend React.js, Angular, Vue.js. <br/>
+        articles about Javascript. I'm really like this programming language because it could be effective at backend Node.js and frontend React.js, Angular, Vue.js. <br>
         So, as i'll get my graduate i'll edit something new in my CV card.
-        My presonal goal is to become a frontend developer on React.js/Redux and get my first job on 2023. In 2024 i would like to become Fullstack-developer with Node.js.
-        <br/><h3>Graduation</h3>
-        <br/>I completed my bachelor's degree at ITMO University in 2013, Faculty of Economic Theory. In 2022 i took a course in Javascript on the AreaWeb YouTube channel.
+        My presonal goal is to become a frontend developer on React.js/Redux and get my first job on 2023. In 2024 i would like to become Fullstack-developer with Node.js.</p>
+        <br><h3><img src="./assets/img/certificate.png" alt="Graduate"> Graduation</h3>
+        <br><p class="about--text">I completed my bachelor's degree at ITMO University in 2013, Faculty of Economic Theory. In 2022 i took a course in Javascript on the AreaWeb YouTube channel.
       </p>
-    </secrion>
-  </div>
+    </div>
+  </section>
 
-  <div class="container">
-    <section class="block">
-  <h2>Contacts</h2>
+  <section class="container">
+    <div class="block">
+  <h2 id="contacts">Contacts</h2>
   <ul class="inblock--list">
-    <li class="inblock--item contacts">&nbspLocation: <span class="text--bold">&nbsp St. Petersburg</span></li>
-    <li class="inblock--item contacts">&nbspE-Mail: <span class="text--bold">&nbsp gromov.nk@ya.ru</span></li>
-    <li class="inblock--item contacts">&nbspTG: <span class="text--bold">&nbsp @undefined_ac</span></li>
-    <li class="inblock--item contacts">&nbspGithub: <span class="text--bold">&nbsp @gromov812</span></li>
-    <li class="inblock--item contacts">&nbspCodewars: <span class="text--bold">&nbsp rsschool_Gromov812</span></li>
+    <li class="inblock--item contacts">&nbsp;Location: <span class="text--bold">&nbsp; St. Petersburg</span></li>
+    <li class="inblock--item contacts">&nbsp;E-Mail: <span class="text--bold">&nbsp; gromov.nk@ya.ru</span></li>
+    <li class="inblock--item contacts">&nbsp;TG: <span class="text--bold">&nbsp; @undefined_ac</span></li>
+    <li class="inblock--item contacts">&nbsp;Github: <span class="text--bold">&nbsp; @gromov812</span></li>
+    <li class="inblock--item contacts">&nbsp;Codewars: <span class="text--bold">&nbsp; rsschool_Gromov812</span></li>
   </ul>
-    </section>
-    <section class="block">
-        <h2>Skills</h2>
+    </div>
+    <div class="block">
+        <h2 id="skills">Skills</h2>
         <ul class="inblock--list">
-          <li class="inblock--item">Web. Dev.: <span class="text--bold">&nbsp HTML5, CSS3, Javascript, SQL</span></li>
-          <li class="inblock--item">Graphics: <span class="text--bold">&nbsp Adobe Photoshop, Figma</span></li>
-          <li class="inblock--item">Version Control: <span class="text--bold">&nbsp GIT, Github</span></li>
-          <li class="inblock--item">Languages: <span class="text--bold">&nbsp RU, EN (A2)</span></li>
+          <li class="inblock--item">Web. Dev.: <span class="text--bold">&nbsp; HTML5, CSS3, Javascript, SQL</span></li>
+          <li class="inblock--item">Graphics: <span class="text--bold">&nbsp; Adobe Photoshop, Figma</span></li>
+          <li class="inblock--item">Version Control: <span class="text--bold">&nbsp; GIT, Github</span></li>
+          <li class="inblock--item">Languages: <span class="text--bold">&nbsp; RU, EN (A2)</span></li>
         </ul>
-    </section>
-    <section class="block block--width--60 ">
-      <h2>Code Example</h2>
+    </div>
+    <div class="block block--width--vw ">
+      <h2 id="codex">Code Example</h2>
       <p class="inblock--task">
-        <b>Task</b> <br/>
+        <b>Task</b> <br>
 Given an array of integers, remove the smallest value. Do not mutate the original array/list. If there are multiple elements with the same value, remove the one with a lower index. If you get an empty array/list, return an empty array/list.
-<br/>
+<br>
 Don't change the order of the elements that are left.
       </p>
       <pre><code class="inblock--code">
@@ -74,40 +80,54 @@ function removeSmallest(nums) {
   return nums.filter((el,i) => i != nums.indexOf(Math.min(...nums)));
 }
       </code></pre>
-    </section>
-  </div>
+    </div>
+  </section>
 
-  <div class="block center--item">
-    <h2>Projects examples</h2>
+  <div class="center--item">
+    <h2 class="colorized--text" id="projects">Project examples</h2>
   </div>
-  <div class="container">
-  <section class="block block--projects">
+  <section class="container">
+  <div class="block block--projects">
     <h3>Tic-Tac-Toe</h3>
-    <img src="/assets/img/tictactoe.jpg" alt="tic-tac-toe game" height="200" id="zoom">
+    <img src="/assets/img/tictactoe.jpg" alt="tic-tac-toe game" height="200" class="zoom">
     <p>
       Simple game with simple logic to collect three items one-by-one in vertical, horizontal or diagonal line. I'm used blocks with lists for create sqares with values from 1 to 9.
-      <br/>The main idea of game-logic is to push values in array on click and after array.length > 2 match result array with arrays that contains win combinations and check for a winner.
+      <br>The main idea of game-logic is to push values in array on click and after array.length > 2 match result array with arrays that contains win combinations and check for a winner.
     </p>
-    <span class="block--porjects--links"><a target="_blank" href="https://gromov812.github.io/tik-tak-toe/">>> Try it now for free! <<</a><a target="_blank" href="https://github.com/Gromov812/tik-tak-toe">>> See source on Github <<</a></span>
-  </section>
-  <section class="block block--projects">
+    <span class="block--porjects--links"><a class="colorized--text" target="_blank" href="https://gromov812.github.io/tik-tak-toe/">>> Try it now for free! &lt;&lt;</a><a class="colorized--text" target="_blank" href="https://github.com/Gromov812/tik-tak-toe">>> See source on Github &lt;&lt;</a></span>
+  </div>
+  <div class="block block--projects">
     <h3>Ultimate Tic-Tac-Toe</h3>
-    <img src="/assets/img/ultimate-tictactoe.jpg" alt="ultimate tic-tac-toe game" height="200" id="zoom">
+    <img src="/assets/img/ultimate-tictactoe.jpg" alt="ultimate tic-tac-toe game" height="200" class="zoom">
     <p>
       Harder gameplay and logic then tic-tac-toe but same rule. For that you should win in little fields to create your winline. each small cell has the same location on its field that your opponent will have in the next move on the big field.
     </p>
-    <span class="block--porjects--links"><a target="_blank" href="https://gromov812.github.io/ultimate-tic-tac-toe/">>> Try it now for free! <<</a><a target="_blank" href="https://github.com/Gromov812/ultimate-tic-tac-toe">>> See source on Github <<</a></span>
+    <span class="block--porjects--links"><a class="colorized--text" target="_blank" href="https://gromov812.github.io/ultimate-tic-tac-toe/">>> Try it now for free! &lt;&lt;</a><a class="colorized--text" target="_blank" href="https://github.com/Gromov812/ultimate-tic-tac-toe">>> See source on Github &lt;&lt;</a></span>
 
-  </section>
-  <section class="block block--projects">
+  </div>
+  <div class="block block--projects">
     <h3>Get random user</h3>
-    <img src="/assets/img/fetchuser.jpg" alt="ultimate tic-tac-toe game" height="200" id="zoom">
+    <img src="/assets/img/fetchuser.jpg" alt="ultimate tic-tac-toe game" height="200" class="zoom">
     <p>
       In this case we get a random data from reqres.in with fetch requests and display it.
     </p>
-    <span class="block--porjects--links"><a target="_blank" href="https://gromov812.github.io/fetch_random_user_js/">>> Try it now for free! <<</a><a target="_blank" href="https://github.com/Gromov812/fetch_random_user_js">>> See source on Github <<</a></span>
-  </section>
-</div>
+    <span class="block--porjects--links"><a class="colorized--text" target="_blank" href="https://gromov812.github.io/fetch_random_user_js/">>> Try it now for free! &lt;&lt;</a><a class="colorized--text" target="_blank" href="https://github.com/Gromov812/fetch_random_user_js">>> See source on Github &lt;&lt;</a></span>
+  </div>
+</section>
 </main>
+<footer class="footer">
+Gromov Nikita's CV 2022. <img src="https://rs.school/images/rs_school_js.svg" alt="rs_school_js" width="80"> <a href="https://rs.school/js/">Курс «JavaScript/Front-end»</a>
+</footer>
+<script>
+  'use strict'
+
+  let mobileButton = document.querySelector('#mobile--menu');
+
+  mobileButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.querySelector('.header--menu').classList.toggle('on');
+    document.querySelector('.fa').classList.toggle('fa-times');
+  })
+</script>
 </body>
 </html>
