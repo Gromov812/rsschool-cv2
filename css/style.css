@@ -145,6 +145,8 @@ h1 {
 .about--text {
   padding: 15px;
   line-height: 30px;
+  background: #ebebeb;
+  border: 1px #fff solid;
 }
 .about--text::first-letter {
   font-size: 22px;
@@ -206,9 +208,11 @@ h1 {
   background-repeat: no-repeat;
   }
 .inblock--task {
-  padding: 20px 0;
-  max-width: 560px;
+  padding: 15px;
+  max-width: 98%;
   line-height: 30px;
+  background: #ebebeb;
+  border: 1px #fff solid;
 }
 .inblock--code {
   font-size: 14px;
@@ -236,6 +240,13 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+.block--projects p{
+  padding: 15px;
+  max-width: 98%;
+  line-height: 30px;
+  background: #ebebeb;
+  border: 1px #fff solid;
 }
 .zoom {
   /* (A) OPTIONAL DIMENSIONS */
