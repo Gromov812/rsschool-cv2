@@ -42,7 +42,8 @@ body {
   align-items: center;
 }
 .nav {
-
+  display: flex;
+  align-items: center;
   width: 1000px;
 }
 .header--menu--list {
@@ -65,7 +66,16 @@ body {
     font-weight: bold;
   }
 }
-
+.logotype--link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 0 10px 0 20px;
+}
+.logotype--link:hover:first-letter {
+  color: #c7ff00;
+}
 .about--text img {
   padding: 7px;
   margin: 0 30px 0 0;
