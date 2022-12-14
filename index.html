@@ -78,8 +78,10 @@ Don't change the order of the elements that are left.
       </p>
       <pre><code class="inblock--code">
 function removeSmallest(nums) {
-  return nums.filter((el,i) => i != nums.indexOf(Math.min(...nums)));
-}
+  return nums.filter((el,i) => {
+    return i != nums.indexOf(Math.min(...nums))
+  });
+};
       </code></pre>
     </div>
   </section>
