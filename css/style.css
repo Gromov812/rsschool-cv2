@@ -115,7 +115,7 @@ body {
   height: 24px;
   width: 24px;
   margin: 0 10px 0 0;
-  background-image: url(/assets/img/pointer.png);
+  background-image: url(./assets/img/pointer.png);
   background-repeat: no-repeat;
 }
 .about--text {
@@ -146,7 +146,7 @@ body {
   display: inline-block;
   height: 24px;
   width: 24px;
-  background-image: url(/assets/img/mail.png);
+  background-image: url(./assets/img/mail.png);
   background-repeat: no-repeat;
 }
 .contacts:nth-child(3)::before {
@@ -154,7 +154,7 @@ body {
   display: inline-block;
   height: 24px;
   width: 24px;
-  background-image: url(/assets/img/tg.png);
+  background-image: url(./assets/img/tg.png);
   background-repeat: no-repeat;
 }
 .contacts:nth-child(1)::before {
@@ -162,7 +162,7 @@ body {
   display: inline-block;
   height: 24px;
   width: 24px;
-  background-image: url(/assets/img/location.png);
+  background-image: url(./assets/img/location.png);
   background-repeat: no-repeat;
   }
 .contacts:nth-child(4)::before {
@@ -170,7 +170,7 @@ body {
   display: inline-block;
   height: 24px;
   width: 24px;
-  background-image: url(/assets/img/github.png);
+  background-image: url(./assets/img/github.png);
   background-repeat: no-repeat;
   }
 .contacts:nth-child(5)::before {
@@ -178,7 +178,7 @@ body {
   display: inline-block;
   height: 24px;
   width: 24px;
-  background-image: url(/assets/img/codewars.png);
+  background-image: url(./assets/img/codewars.png);
   background-repeat: no-repeat;
   }
 .inblock--task {
