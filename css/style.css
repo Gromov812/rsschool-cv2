@@ -24,7 +24,7 @@ header {
   border-bottom: 3px #ddd solid;
 }
 
- ul {
+ul {
   width: 100%;
 }
 h1 {
@@ -169,6 +169,14 @@ h1 {
 .contacts {
  list-style: none;
 }
+.contacts:nth-child(4)::before {
+  content: "";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background-image: url(../assets/img/discord.png);
+  background-repeat: no-repeat;
+}
 .contacts:nth-child(2)::before {
   content: "";
   display: inline-block;
@@ -193,7 +201,7 @@ h1 {
   background-image: url(../assets/img/location.png);
   background-repeat: no-repeat;
   }
-.contacts:nth-child(4)::before {
+.contacts:nth-child(5)::before {
   content: "";
   display: inline-block;
   height: 24px;
@@ -201,7 +209,7 @@ h1 {
   background-image: url(../assets/img/github.png);
   background-repeat: no-repeat;
   }
-.contacts:nth-child(5)::before {
+.contacts:nth-child(6)::before {
   content: "";
   display: inline-block;
   height: 24px;
@@ -255,19 +263,11 @@ h1 {
   border: 1px #fff solid;
 }
 .zoom {
-  /* (A) OPTIONAL DIMENSIONS */
   width: 300px;
   height: auto;
-
-  /* (B) ANIMATE ZOOM */
-  /* ease | ease-in | ease-out | linear */
   transition: transform ease-in-out 0.3s;
 }
-
-/* (C) ZOOM ON HOVER */
 .zoom:hover { transform: scale(1.5); }
-
-
 .block--projects h3 {
   font-family: monospace;
   font-weight: 600;
@@ -317,6 +317,7 @@ h1 {
 
 .footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   padding: 40px 0 20px 0;
