@@ -20,7 +20,7 @@ header {
   font-family: monospace, sans-serif;
   display: flex;
   justify-content: space-around;
-  background: linear-gradient(45deg, rgb(226 136 0), rgb(202 80 80));
+  background: linear-gradient(45deg, #e28800, #ca5050);
   border-bottom: 3px #ddd solid;
 }
 
@@ -132,6 +132,8 @@ h1 {
   color: #323232;
   padding: 0 5px;
   margin: 10px;
+  background: #ffffff82;
+  border-bottom: 1px #c74b4b82 solid;
 }
  h2::before {
   content: "";
@@ -146,7 +148,7 @@ h1 {
   padding: 15px;
   line-height: 30px;
   background: #ebebeb;
-  border: 8px #fff dashed;
+  border: 1px solid #fff;
 }
 .about--text::first-letter {
   font-size: 22px;
@@ -231,6 +233,10 @@ h1 {
 }
 .center--item h2 {
   font-size: 2.2em;
+}
+.center--item span {
+  font-weight: bolder;
+  animation: blink 1s infinite;
 }
 .block--projects {
   width: 30%;
