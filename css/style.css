@@ -11,6 +11,7 @@ body {
   font-family: system-ui, sans-serif;
   background-image: url(../assets/img/pattern.png);
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: space-between;
   margin: 0;
@@ -357,10 +358,11 @@ h2 {
   padding: 10px 10px;
  }
  header {
-  position: fixed;
+  position: sticky;
   width: 100%;
   align-items: center;
- }
+  top: 0;
+}
  .about--block {
   margin: 60px 0 0 10px;
  }
