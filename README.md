@@ -1,1 +1,1 @@
-# rsschool-cv
+https://gromov812.github.io/rsschool-cv/
