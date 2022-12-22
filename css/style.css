@@ -11,8 +11,8 @@ body {
   font-family: system-ui, sans-serif;
   background-image: url(../assets/img/pattern.png);
   display: flex;
+  flex-flow: column nowrap;
   position: relative;
-  flex-direction: column;
   justify-content: space-between;
   margin: 0;
   padding: 0;
@@ -317,6 +317,7 @@ h2 {
 .zoom {
   width: 300px;
   height: auto;
+  transform: scale(1);
   transition: transform ease-in-out 0.3s;
 }
 .zoom:hover { 
